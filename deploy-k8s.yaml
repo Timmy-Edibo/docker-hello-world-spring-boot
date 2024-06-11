@@ -13,7 +13,7 @@ metadata:
   labels:
     app: atl-deployment
 spec:
-  type: ClusterIP
+  type: LoadBalancer   
   selector:
     app: atl-deployment
   ports:
